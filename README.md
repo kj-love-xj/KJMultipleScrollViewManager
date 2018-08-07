@@ -18,7 +18,7 @@ if (self.sManager) {
 [self.kjManager addMainRelevancyPageView:[self.kjPageView valueForKey:@"_scrollView"]];
 ```
 # 具体的介绍
-[KJMultipleScrollViewManager具体介绍](https://www.jianshu.com/p/8e6dfb547061)
+[KJMultipleScrollViewManager详细介绍](https://www.jianshu.com/p/8e6dfb547061)
 
 # 效果展示
 ![效果展示](https://github.com/hkjin/KJMultipleScrollViewManager/blob/master/KjMultipleScrollViewDemoEffect180807.gif)
