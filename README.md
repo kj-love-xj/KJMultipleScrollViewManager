@@ -21,4 +21,4 @@ if (self.sManager) {
 [KJMultipleScrollViewManager具体介绍](https://www.jianshu.com/p/8e6dfb547061)
 
 # 效果展示
-![效果展示](https://github.com/hkjin/KJMultipleScrollViewManager/blob/master/KjMultipleScrollViewDemoEffect.gif?raw=true)
+![效果展示](https://github.com/hkjin/KJMultipleScrollViewManager/blob/master/KjMultipleScrollViewDemoEffect180807.gif)
