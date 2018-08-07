@@ -1,0 +1,1 @@
+../../../SGPagingView/SGPagingView/SGPageTitle/SGPageTitleViewConfigure.h

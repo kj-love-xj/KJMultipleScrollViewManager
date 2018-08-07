@@ -1,0 +1,1 @@
+../../../SGPagingView/SGPagingView/Category/NSString+SGPagingView.h

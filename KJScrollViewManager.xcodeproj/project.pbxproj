@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0004F1406CE2410E321E3914 /* libPods-KJScrollViewManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B91D35D8509126AF35550AC /* libPods-KJScrollViewManager.a */; };
+		96EBF7F621194EC30055A02C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF7F521194EC30055A02C /* AppDelegate.m */; };
+		96EBF7F921194EC30055A02C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF7F821194EC30055A02C /* ViewController.m */; };
+		96EBF7FC21194EC30055A02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF7FA21194EC30055A02C /* Main.storyboard */; };
+		96EBF7FE21194EC40055A02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF7FD21194EC40055A02C /* Assets.xcassets */; };
+		96EBF80121194EC40055A02C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF7FF21194EC40055A02C /* LaunchScreen.storyboard */; };
+		96EBF80421194EC40055A02C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF80321194EC40055A02C /* main.m */; };
+		96EBF80E21194EC40055A02C /* KJScrollViewManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF80D21194EC40055A02C /* KJScrollViewManagerTests.m */; };
+		96EBF81921194EC40055A02C /* KJScrollViewManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF81821194EC40055A02C /* KJScrollViewManagerUITests.m */; };
+		96EBF82A21194F7B0055A02C /* MultipleGestureTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF82821194F7B0055A02C /* MultipleGestureTableView.m */; };
+		96EBF82D21194F870055A02C /* MultipleScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF82B21194F870055A02C /* MultipleScrollViewManager.m */; };
+		96EBF83021194FCB0055A02C /* KjChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF82F21194FCB0055A02C /* KjChildViewController.m */; };
+		96EBF834211950C50055A02C /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF832211950C50055A02C /* HFStretchableTableHeaderView.m */; };
+		96EBF836211961980055A02C /* KjMultipleScrollViewDemoEffect.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96EBF80A21194EC40055A02C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96EBF7E921194EC30055A02C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96EBF7F021194EC30055A02C;
+			remoteInfo = KJScrollViewManager;
+		};
+		96EBF81521194EC40055A02C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96EBF7E921194EC30055A02C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96EBF7F021194EC30055A02C;
+			remoteInfo = KJScrollViewManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B91D35D8509126AF35550AC /* libPods-KJScrollViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KJScrollViewManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4470AE9ED8CD59F06F1BCFED /* Pods-KJScrollViewManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJScrollViewManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJScrollViewManager/Pods-KJScrollViewManager.release.xcconfig"; sourceTree = "<group>"; };
+		96EBF7F121194EC30055A02C /* KJScrollViewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJScrollViewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EBF7F421194EC30055A02C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96EBF7F521194EC30055A02C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96EBF7F721194EC30055A02C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96EBF7F821194EC30055A02C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96EBF7FB21194EC30055A02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96EBF7FD21194EC40055A02C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96EBF80021194EC40055A02C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96EBF80221194EC40055A02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EBF80321194EC40055A02C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96EBF80921194EC40055A02C /* KJScrollViewManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJScrollViewManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EBF80D21194EC40055A02C /* KJScrollViewManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScrollViewManagerTests.m; sourceTree = "<group>"; };
+		96EBF80F21194EC40055A02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EBF81421194EC40055A02C /* KJScrollViewManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJScrollViewManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96EBF81821194EC40055A02C /* KJScrollViewManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScrollViewManagerUITests.m; sourceTree = "<group>"; };
+		96EBF81A21194EC40055A02C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96EBF82821194F7B0055A02C /* MultipleGestureTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleGestureTableView.m; sourceTree = "<group>"; };
+		96EBF82921194F7B0055A02C /* MultipleGestureTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleGestureTableView.h; sourceTree = "<group>"; };
+		96EBF82B21194F870055A02C /* MultipleScrollViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleScrollViewManager.m; sourceTree = "<group>"; };
+		96EBF82C21194F870055A02C /* MultipleScrollViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleScrollViewManager.h; sourceTree = "<group>"; };
+		96EBF82E21194FCB0055A02C /* KjChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KjChildViewController.h; sourceTree = "<group>"; };
+		96EBF82F21194FCB0055A02C /* KjChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KjChildViewController.m; sourceTree = "<group>"; };
+		96EBF832211950C50055A02C /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
+		96EBF833211950C50055A02C /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
+		96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KjMultipleScrollViewDemoEffect.gif; sourceTree = "<group>"; };
+		D052EDEF8A57E8839B1867C6 /* Pods-KJScrollViewManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJScrollViewManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KJScrollViewManager/Pods-KJScrollViewManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96EBF7EE21194EC30055A02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004F1406CE2410E321E3914 /* libPods-KJScrollViewManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF80621194EC40055A02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF81121194EC40055A02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A01241D57A0CCB419DEF2B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B91D35D8509126AF35550AC /* libPods-KJScrollViewManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96EBF7E821194EC30055A02C = {
+			isa = PBXGroup;
+			children = (
+				96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */,
+				96EBF82621194F6D0055A02C /* MultipleScrollViewManager */,
+				96EBF7F321194EC30055A02C /* KJScrollViewManager */,
+				96EBF80C21194EC40055A02C /* KJScrollViewManagerTests */,
+				96EBF81721194EC40055A02C /* KJScrollViewManagerUITests */,
+				96EBF7F221194EC30055A02C /* Products */,
+				BE44D84D8E9689AD1BFD5FC1 /* Pods */,
+				0A01241D57A0CCB419DEF2B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96EBF7F221194EC30055A02C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF7F121194EC30055A02C /* KJScrollViewManager.app */,
+				96EBF80921194EC40055A02C /* KJScrollViewManagerTests.xctest */,
+				96EBF81421194EC40055A02C /* KJScrollViewManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96EBF7F321194EC30055A02C /* KJScrollViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF7F421194EC30055A02C /* AppDelegate.h */,
+				96EBF7F521194EC30055A02C /* AppDelegate.m */,
+				96EBF7F721194EC30055A02C /* ViewController.h */,
+				96EBF7F821194EC30055A02C /* ViewController.m */,
+				96EBF82E21194FCB0055A02C /* KjChildViewController.h */,
+				96EBF82F21194FCB0055A02C /* KjChildViewController.m */,
+				96EBF831211950C50055A02C /* HFStretchableTableHeaderView */,
+				96EBF7FA21194EC30055A02C /* Main.storyboard */,
+				96EBF7FD21194EC40055A02C /* Assets.xcassets */,
+				96EBF7FF21194EC40055A02C /* LaunchScreen.storyboard */,
+				96EBF80221194EC40055A02C /* Info.plist */,
+				96EBF80321194EC40055A02C /* main.m */,
+			);
+			path = KJScrollViewManager;
+			sourceTree = "<group>";
+		};
+		96EBF80C21194EC40055A02C /* KJScrollViewManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF80D21194EC40055A02C /* KJScrollViewManagerTests.m */,
+				96EBF80F21194EC40055A02C /* Info.plist */,
+			);
+			path = KJScrollViewManagerTests;
+			sourceTree = "<group>";
+		};
+		96EBF81721194EC40055A02C /* KJScrollViewManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF81821194EC40055A02C /* KJScrollViewManagerUITests.m */,
+				96EBF81A21194EC40055A02C /* Info.plist */,
+			);
+			path = KJScrollViewManagerUITests;
+			sourceTree = "<group>";
+		};
+		96EBF82621194F6D0055A02C /* MultipleScrollViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF82C21194F870055A02C /* MultipleScrollViewManager.h */,
+				96EBF82B21194F870055A02C /* MultipleScrollViewManager.m */,
+				96EBF82721194F7B0055A02C /* TableView */,
+			);
+			path = MultipleScrollViewManager;
+			sourceTree = "<group>";
+		};
+		96EBF82721194F7B0055A02C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF82921194F7B0055A02C /* MultipleGestureTableView.h */,
+				96EBF82821194F7B0055A02C /* MultipleGestureTableView.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		96EBF831211950C50055A02C /* HFStretchableTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				96EBF833211950C50055A02C /* HFStretchableTableHeaderView.h */,
+				96EBF832211950C50055A02C /* HFStretchableTableHeaderView.m */,
+			);
+			path = HFStretchableTableHeaderView;
+			sourceTree = "<group>";
+		};
+		BE44D84D8E9689AD1BFD5FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D052EDEF8A57E8839B1867C6 /* Pods-KJScrollViewManager.debug.xcconfig */,
+				4470AE9ED8CD59F06F1BCFED /* Pods-KJScrollViewManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96EBF7F021194EC30055A02C /* KJScrollViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EBF81D21194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManager" */;
+			buildPhases = (
+				855977A14EFE3E5A8FE7BB81 /* [CP] Check Pods Manifest.lock */,
+				96EBF7ED21194EC30055A02C /* Sources */,
+				96EBF7EE21194EC30055A02C /* Frameworks */,
+				96EBF7EF21194EC30055A02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJScrollViewManager;
+			productName = KJScrollViewManager;
+			productReference = 96EBF7F121194EC30055A02C /* KJScrollViewManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96EBF80821194EC40055A02C /* KJScrollViewManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EBF82021194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManagerTests" */;
+			buildPhases = (
+				96EBF80521194EC40055A02C /* Sources */,
+				96EBF80621194EC40055A02C /* Frameworks */,
+				96EBF80721194EC40055A02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96EBF80B21194EC40055A02C /* PBXTargetDependency */,
+			);
+			name = KJScrollViewManagerTests;
+			productName = KJScrollViewManagerTests;
+			productReference = 96EBF80921194EC40055A02C /* KJScrollViewManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96EBF81321194EC40055A02C /* KJScrollViewManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96EBF82321194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManagerUITests" */;
+			buildPhases = (
+				96EBF81021194EC40055A02C /* Sources */,
+				96EBF81121194EC40055A02C /* Frameworks */,
+				96EBF81221194EC40055A02C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96EBF81621194EC40055A02C /* PBXTargetDependency */,
+			);
+			name = KJScrollViewManagerUITests;
+			productName = KJScrollViewManagerUITests;
+			productReference = 96EBF81421194EC40055A02C /* KJScrollViewManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96EBF7E921194EC30055A02C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Kegem;
+				TargetAttributes = {
+					96EBF7F021194EC30055A02C = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					96EBF80821194EC40055A02C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 96EBF7F021194EC30055A02C;
+					};
+					96EBF81321194EC40055A02C = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 96EBF7F021194EC30055A02C;
+					};
+				};
+			};
+			buildConfigurationList = 96EBF7EC21194EC30055A02C /* Build configuration list for PBXProject "KJScrollViewManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96EBF7E821194EC30055A02C;
+			productRefGroup = 96EBF7F221194EC30055A02C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96EBF7F021194EC30055A02C /* KJScrollViewManager */,
+				96EBF80821194EC40055A02C /* KJScrollViewManagerTests */,
+				96EBF81321194EC40055A02C /* KJScrollViewManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96EBF7EF21194EC30055A02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EBF80121194EC40055A02C /* LaunchScreen.storyboard in Resources */,
+				96EBF7FE21194EC40055A02C /* Assets.xcassets in Resources */,
+				96EBF7FC21194EC30055A02C /* Main.storyboard in Resources */,
+				96EBF836211961980055A02C /* KjMultipleScrollViewDemoEffect.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF80721194EC40055A02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF81221194EC40055A02C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		855977A14EFE3E5A8FE7BB81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJScrollViewManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96EBF7ED21194EC30055A02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EBF7F921194EC30055A02C /* ViewController.m in Sources */,
+				96EBF80421194EC40055A02C /* main.m in Sources */,
+				96EBF7F621194EC30055A02C /* AppDelegate.m in Sources */,
+				96EBF82A21194F7B0055A02C /* MultipleGestureTableView.m in Sources */,
+				96EBF834211950C50055A02C /* HFStretchableTableHeaderView.m in Sources */,
+				96EBF83021194FCB0055A02C /* KjChildViewController.m in Sources */,
+				96EBF82D21194F870055A02C /* MultipleScrollViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF80521194EC40055A02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EBF80E21194EC40055A02C /* KJScrollViewManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96EBF81021194EC40055A02C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96EBF81921194EC40055A02C /* KJScrollViewManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96EBF80B21194EC40055A02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96EBF7F021194EC30055A02C /* KJScrollViewManager */;
+			targetProxy = 96EBF80A21194EC40055A02C /* PBXContainerItemProxy */;
+		};
+		96EBF81621194EC40055A02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96EBF7F021194EC30055A02C /* KJScrollViewManager */;
+			targetProxy = 96EBF81521194EC40055A02C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96EBF7FA21194EC30055A02C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EBF7FB21194EC30055A02C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96EBF7FF21194EC40055A02C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96EBF80021194EC40055A02C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96EBF81B21194EC40055A02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96EBF81C21194EC40055A02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96EBF81E21194EC40055A02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D052EDEF8A57E8839B1867C6 /* Pods-KJScrollViewManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96EBF81F21194EC40055A02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4470AE9ED8CD59F06F1BCFED /* Pods-KJScrollViewManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96EBF82121194EC40055A02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJScrollViewManager.app/KJScrollViewManager";
+			};
+			name = Debug;
+		};
+		96EBF82221194EC40055A02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KJScrollViewManager.app/KJScrollViewManager";
+			};
+			name = Release;
+		};
+		96EBF82421194EC40055A02C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJScrollViewManager;
+			};
+			name = Debug;
+		};
+		96EBF82521194EC40055A02C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHFRA6S4N6;
+				INFOPLIST_FILE = KJScrollViewManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kegem-foxmail.com.KJScrollViewManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KJScrollViewManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96EBF7EC21194EC30055A02C /* Build configuration list for PBXProject "KJScrollViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EBF81B21194EC40055A02C /* Debug */,
+				96EBF81C21194EC40055A02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EBF81D21194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EBF81E21194EC40055A02C /* Debug */,
+				96EBF81F21194EC40055A02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EBF82021194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EBF82121194EC40055A02C /* Debug */,
+				96EBF82221194EC40055A02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96EBF82321194EC40055A02C /* Build configuration list for PBXNativeTarget "KJScrollViewManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96EBF82421194EC40055A02C /* Debug */,
+				96EBF82521194EC40055A02C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96EBF7E921194EC30055A02C /* Project object */;
+}

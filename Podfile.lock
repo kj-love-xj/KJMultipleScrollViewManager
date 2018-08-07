@@ -1,0 +1,20 @@
+PODS:
+  - Masonry (1.1.0)
+  - SGPagingView (1.5.1)
+
+DEPENDENCIES:
+  - Masonry
+  - SGPagingView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - SGPagingView
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SGPagingView: 914ed5743e5a0c81a45d8229bfece2cd5b8cc013
+
+PODFILE CHECKSUM: 13b09a9f9d8886890df24b03a3d9da276f88e040
+
+COCOAPODS: 1.5.0
