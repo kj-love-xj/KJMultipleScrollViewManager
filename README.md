@@ -1,0 +1,2 @@
+# KJMultipleScrollViewManager
+微博主页样式解决方案之一、UITableView头部下拉放大、多个UIScrollView早同一页面的管理器
