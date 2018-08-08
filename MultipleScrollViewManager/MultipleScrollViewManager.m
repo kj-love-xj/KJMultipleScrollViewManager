@@ -120,7 +120,6 @@
             } @catch (NSException *exception) {
             } @finally {
             }
-            
         }
         
         self.pageView = sView;
@@ -139,21 +138,22 @@
                        context:(void *)context {
     
     if (object == self.pageView) {//主控制器中关联的分页管理器
-        UIScrollView *sView = object;
-        if (sView.panGestureRecognizer.state == UIGestureRecognizerStateChanged) {
+        if (self.pageView.panGestureRecognizer.state == UIGestureRecognizerStateChanged) {
             self.mainView.scrollEnabled = NO;
         } else {
             self.mainView.scrollEnabled = YES;
         }
     } else if (object == self.mainView) {//主控制器中的UIScrollView
         if ([keyPath isEqualToString:@"panGestureRecognizer.state"]) {
-            if (self.pageView && [change[NSKeyValueChangeNewKey] integerValue] == UIGestureRecognizerStateChanged) {
-                self.pageView.scrollEnabled = NO;
-            } else {
-                self.pageView.scrollEnabled = YES;
+            if (self.pageView) {
+                if ([change[NSKeyValueChangeNewKey] integerValue] == UIGestureRecognizerStateChanged) {
+                    self.pageView.scrollEnabled = NO;
+                } else {
+                    self.pageView.scrollEnabled = YES;
+                }
             }
         }
-        else if ([keyPath isEqualToString:@"contentOffset"]) {
+        else if ([keyPath isEqualToString:@"contentOffset"] && self.mainView.scrollEnabled) {
             CGFloat vHeight = self.mainView.frame.size.height;
             if (self.if_mainV_scroll) {
                 //获取主控制器中sView的偏移量

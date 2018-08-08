@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0004F1406CE2410E321E3914 /* libPods-KJScrollViewManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B91D35D8509126AF35550AC /* libPods-KJScrollViewManager.a */; };
+		9649B04F211A7B780019B453 /* KjMultipleScrollViewDemoEffect180807.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9649B04E211A7B780019B453 /* KjMultipleScrollViewDemoEffect180807.gif */; };
 		96EBF7F621194EC30055A02C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF7F521194EC30055A02C /* AppDelegate.m */; };
 		96EBF7F921194EC30055A02C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF7F821194EC30055A02C /* ViewController.m */; };
 		96EBF7FC21194EC30055A02C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF7FA21194EC30055A02C /* Main.storyboard */; };
@@ -20,7 +21,6 @@
 		96EBF82D21194F870055A02C /* MultipleScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF82B21194F870055A02C /* MultipleScrollViewManager.m */; };
 		96EBF83021194FCB0055A02C /* KjChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF82F21194FCB0055A02C /* KjChildViewController.m */; };
 		96EBF834211950C50055A02C /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EBF832211950C50055A02C /* HFStretchableTableHeaderView.m */; };
-		96EBF836211961980055A02C /* KjMultipleScrollViewDemoEffect.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0B91D35D8509126AF35550AC /* libPods-KJScrollViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KJScrollViewManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4470AE9ED8CD59F06F1BCFED /* Pods-KJScrollViewManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJScrollViewManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-KJScrollViewManager/Pods-KJScrollViewManager.release.xcconfig"; sourceTree = "<group>"; };
+		9649B04E211A7B780019B453 /* KjMultipleScrollViewDemoEffect180807.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KjMultipleScrollViewDemoEffect180807.gif; sourceTree = "<group>"; };
 		96EBF7F121194EC30055A02C /* KJScrollViewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJScrollViewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EBF7F421194EC30055A02C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		96EBF7F521194EC30055A02C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,7 +68,6 @@
 		96EBF82F21194FCB0055A02C /* KjChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KjChildViewController.m; sourceTree = "<group>"; };
 		96EBF832211950C50055A02C /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
 		96EBF833211950C50055A02C /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
-		96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = KjMultipleScrollViewDemoEffect.gif; sourceTree = "<group>"; };
 		D052EDEF8A57E8839B1867C6 /* Pods-KJScrollViewManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJScrollViewManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KJScrollViewManager/Pods-KJScrollViewManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +108,7 @@
 		96EBF7E821194EC30055A02C = {
 			isa = PBXGroup;
 			children = (
-				96EBF835211961980055A02C /* KjMultipleScrollViewDemoEffect.gif */,
+				9649B04E211A7B780019B453 /* KjMultipleScrollViewDemoEffect180807.gif */,
 				96EBF82621194F6D0055A02C /* MultipleScrollViewManager */,
 				96EBF7F321194EC30055A02C /* KJScrollViewManager */,
 				96EBF80C21194EC40055A02C /* KJScrollViewManagerTests */,
@@ -308,9 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EBF80121194EC40055A02C /* LaunchScreen.storyboard in Resources */,
+				9649B04F211A7B780019B453 /* KjMultipleScrollViewDemoEffect180807.gif in Resources */,
 				96EBF7FE21194EC40055A02C /* Assets.xcassets in Resources */,
 				96EBF7FC21194EC30055A02C /* Main.storyboard in Resources */,
-				96EBF836211961980055A02C /* KjMultipleScrollViewDemoEffect.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

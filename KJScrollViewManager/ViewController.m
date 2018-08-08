@@ -142,7 +142,8 @@
         [self.kjView addSubview:self.kjPageView];
         
         //因为分页管理器也是属于UIScrollView，也需要交给管理器来统一管理
-        [self.kjManager addMainRelevancyPageView:[self.kjPageView valueForKey:@"_scrollView"]];
+        UIScrollView *sView = [self.kjPageView valueForKey:@"_scrollView"];
+        [self.kjManager addMainRelevancyPageView:sView];
     }
     
     self.kjTitleView.selectedIndex = 0;
